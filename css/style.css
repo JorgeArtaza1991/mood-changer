@@ -1,0 +1,256 @@
+/*
+html5doctor.com Reset Stylesheet
+v1.6.1
+Last Updated: 2010-09-17
+Author: Richard Clark - http://richclarkdesign.com
+Twitter: @rich_clark
+*/
+
+html, body, div, span, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+abbr, address, cite, code,
+del, dfn, em, img, ins, kbd, q, samp,
+small, strong, sub, sup, var,
+b, i,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section, summary,
+time, mark, audio, video {
+    margin:0;
+    padding:0;
+    border:0;
+    outline:0;
+    font-size:100%;
+    vertical-align:baseline;
+    background:transparent;
+}
+
+body {
+    line-height:1;
+}
+
+article,aside,details,figcaption,figure,
+footer,header,hgroup,menu,nav,section {
+    display:block;
+}
+
+nav ul {
+    list-style:none;
+}
+
+blockquote, q {
+    quotes:none;
+}
+
+blockquote:before, blockquote:after,
+q:before, q:after {
+    content:'';
+    content:none;
+}
+
+a {
+    margin:0;
+    padding:0;
+    font-size:100%;
+    vertical-align:baseline;
+    background:transparent;
+}
+
+/* change colours to suit your needs */
+ins {
+    background-color:#ff9;
+    color:#000;
+    text-decoration:none;
+}
+
+/* change colours to suit your needs */
+mark {
+    background-color:#ff9;
+    color:#000;
+    font-style:italic;
+    font-weight:bold;
+}
+
+del {
+    text-decoration: line-through;
+}
+
+abbr[title], dfn[title] {
+    border-bottom:1px dotted;
+    cursor:help;
+}
+
+table {
+    border-collapse:collapse;
+    border-spacing:0;
+}
+
+/* change border colour to suit your needs */
+hr {
+    display:block;
+    height:1px;
+    border:0;  
+    border-top:1px solid #cccccc;
+    margin:1em 0;
+    padding:0;
+}
+
+input, select {
+    vertical-align:middle;
+}
+
+@media only screen and (min-width:360px) {
+    main {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    main section {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    main section h2 {
+        padding-top: 30px;
+        padding-bottom: 30px;  
+    }
+
+    main section h1 {
+        padding-top: 30px;
+        padding-bottom: 30px;
+    }
+    
+    main section .feelings {
+        display: flex;
+        justify-content: space-evenly;
+        align-items: center;
+        flex-wrap: wrap;
+        width: 100%;
+       padding: 20px 0;
+       margin: 20px 0 60px;
+    }
+    
+    main section .feelings li {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        margin-left: 27px;
+      padding: 20px 0;
+    }
+
+    main section .feelings .tired.grayBorder {
+        border: 4px solid #d3d3d3;
+    }
+
+    main section .feelings .confused.darkGrey {
+        border: 4px solid #5A5A5A;
+    }
+
+    main section .feelings .proud.purpleBorder {
+        border: 4px solid purple;
+    }
+
+    main section .feelings .afraid.redBorder {
+        border: 4px solid red;
+    }
+
+    main section .feelings .embarrassed.lightRed {
+        border: 4px solid #e58e73;
+    }
+
+    main section .feelings .hurt.darkRed {
+        border: 4px solid #cf142b;
+    }
+
+    main section .feelings .hungary.orangeBorder {
+        border: 4px solid orange;
+    }
+
+    main section .feelings .shy.blueBorder {
+        border: 4px solid blue;
+    }
+    
+    main section .feelings li img {
+        width: 40px;
+        margin: 0 0 5px;
+        font-size: 20px;
+    }
+
+}
+
+@media only screen and (min-width:460px) {
+    main section .feelings {
+        width: 75%;
+            }
+    main section .feelings li img {
+        width: 45px;
+    }
+}
+
+@media only screen and (min-width: 522px) {
+    main section .feelings {
+        width: 65%;
+            }
+    main section .feelings li img {
+        width: 45px;
+    }
+}
+
+@media only screen and (min-width: 567px) {
+    main section .feelings {
+        width: 65%;
+            }
+    main section .feelings li img {
+        width: 45px;
+    }
+}
+
+@media only screen and (min-width: 598px) {
+    main section .feelings {
+        width: 55%;
+            }
+    main section .feelings li img {
+        width: 45px;
+    }
+}
+
+@media only screen and (min-width: 647px) {
+    main section .feelings {
+        width: 55%;
+            }
+    main section .feelings li img {
+        width: 45px;
+    }
+}
+
+@media only screen and (min-width: 768px) {
+    main section .feelings {
+width: 55%;
+    }
+
+    main section .feelings li img {
+        width: 45px;
+    }
+}
+
+
+@media only screen and (min-width: 1000px) {
+    main section .feelings li img {
+        width: 45px;
+    }
+
+    main section .feelings {
+        width: 55%;
+            }
+        
+}
+
+
+
